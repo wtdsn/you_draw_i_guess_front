@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "npx eslint ."
+  },
+  "dependencies": {
+    "@types/node": "^18.16.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "utils-h": "^1.1.4",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "^8.42.0",
+    "eslint-plugin-vue": "^9.14.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.0",
+    "vue-tsc": "^1.2.0"
+  }
+}
