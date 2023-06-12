@@ -21,7 +21,7 @@ request.setBeforeRequest((config) => config)
 request.setAfterResponsse((response) => {
 	// console.log(response)
 	return response.data
-}, (err) => {
+}, (_err) => {
 	// console.log(err)
 	/* switch (err.status) {
     case 400:

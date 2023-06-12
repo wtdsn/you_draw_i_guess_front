@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // todo 邀请用户
 import { toRefs, defineEmits } from 'vue'
-import { statusE } from '../../../../share/game.ts'
+import { statusE } from '../../share/game.ts'
 
 // 用户 id , 绘画的 id , 房主 id , 房间状态
 interface propsIn {
@@ -25,11 +25,11 @@ const { status, myId, drawerId, ownerId, drawerName, keyWordList, keyWord } = to
 
 const emite = defineEmits(['startGame', 'chooseKeyWord'])
 function startGame() {
-  emite('startGame')
+	emite('startGame')
 }
 
 function chooseKeyWord(word: string) {
-  emite('chooseKeyWord', word)
+	emite('chooseKeyWord', word)
 }
 
 </script>

@@ -2,7 +2,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { getAvatarUrl } from '@/utils/index'
-import { statusE } from '../../../../share/game'
+import { statusE } from '../../share/game'
 import { drawInfoInter } from './DrawBoard.vue'
 
 // 组件
