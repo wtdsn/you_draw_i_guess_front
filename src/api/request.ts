@@ -1,6 +1,7 @@
 import createFetchH from '../utils/request'
 
-const baseUrl = 'http://localhost:9527'
+// const baseUrl = 'http://localhost:9527'
+const baseUrl = 'http://localhost/api'
 
 import { requestIn } from '../utils/request'
 
@@ -27,7 +28,6 @@ request.setAfterResponsse((response) => {
     case 400:
       return 
   } */
-  
 })
 
 
