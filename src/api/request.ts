@@ -1,7 +1,7 @@
 import createFetchH from '../utils/request'
 
 // const baseUrl = 'http://localhost:9527'
-const baseUrl = 'http://localhost/api'
+const baseUrl = '/api'
 
 import { requestIn } from '../utils/request'
 
