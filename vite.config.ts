@@ -17,5 +17,14 @@ export default defineConfig({
 				additionalData: '@import "@/assets/style/var.less";',
 			}
 		}
+	},
+	server:{
+		proxy:{
+			'/api':{
+				target:'http://10.0.2.15:9527',
+				changeOrigin: true,
+				rewrite: path => path.replace(/^\/api/, '')
+			}
+		}
 	}
 })
